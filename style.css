@@ -3,3 +3,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* grayscale style */
+.grayscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+/* star design */
+.fa-star-filled {
+  color: #e77c40;
+}
