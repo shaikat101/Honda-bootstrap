@@ -1,6 +1,14 @@
+/* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: "Poppins", sans-serif;
 }
 /* header background color */
@@ -11,6 +19,15 @@ body {
 .purchase-btn-primary {
   background-color: #e76f51;
 }
+.text-color {
+  color: #e76f51;
+}
+.text-color-second {
+  color: #0a0826;
+}
+.name-text-color {
+  color: #75c7f5;
+}
 /* grayscale style */
 .grayscale {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -19,4 +36,21 @@ body {
 /* star design */
 .fa-star.filled {
   color: #e77c40;
+}
+
+/* buy now button */
+.subscribe-bg-info {
+  background-color: #c2c2c2;
+}
+/* specification-design  */
+.specification-design {
+  border-radius: 5px;
+}
+
+.honda-btn-submit {
+  background-color: #e76f51;
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
 }
